@@ -1,0 +1,201 @@
+
+body {
+    width: 1600x;
+    height: 1200px;    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url(imagens/Background.jpg);
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.superiorLeft{
+    display: flex;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 33px;
+}
+
+.line2 {
+    width: 1px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.defi{
+    height: 200;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.nav{
+    margin-right: 50px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tituloimg{
+    display: flex;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.hero img{
+    border-radius: 0px 45px;
+}
+
+.hero p {
+    font-size: 18px;    
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.46);
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: -25px;
+}
+
+.divisao{
+    display: flex;
+    margin-left: -35px;
+}
+
+.services {
+    padding: 50px 20px;
+    max-width: 676px;
+    margin-right: 10px
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.service-card {
+    width: 550px;
+    height: 100px;
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: .5px solid #959292;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px #01024d4c;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);;
+}
+
+.service-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.service-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.service-info h3 {
+    font-size: 24px;
+    margin: 0;
+    color: linear-gradient(180deg, #FFF 0%, #00012D 215.52%);;
+}
+
+.service-info p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.46);
+}
+.cta {
+    text-align: justify;
+}
+
+.cta p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.46);
+}
+
+.social-section {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    gap: 10px;
+    padding: 50px;
+}
+
+.social-section p {
+    font-size: 25px;
+    margin: 0;
+}
+
+.social-icons img {
+    width: 36px;
+    height: 36px;
+}   
+
+@media (max-width: 768px) {
+    .feature {
+        flex: 1 1 100%;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .cta p {
+        font-size: 1rem;
+    }
+
+    .cta button {
+        font-size: 0.9rem;
+    }
+}

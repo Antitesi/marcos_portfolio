@@ -1,0 +1,276 @@
+
+body {
+    width: 1600x;
+    height: 1200px;    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url(imagens/Background.jpg);
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.superiorLeft{
+    display: flex;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 33px;
+}
+
+.line2 {
+    width: 1px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.defi{
+    height: 200;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.nav{
+    margin-right: 50px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+    margin-top: 50px;
+     
+}  
+
+h1{
+    font-size: 40px;
+}
+.intro {
+    flex: 1;
+    max-width: 400px;
+    margin-left: 0px ;
+}
+
+.quemsou{
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.46);
+    text-align: justify;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 123.092%; 
+    letter-spacing: 0.75px;
+
+}
+
+.profile-image img {
+    width: 500px;
+    height: 656.652px;
+    align-items: center;
+}
+
+.stats {
+    margin-left: 150px;
+}
+
+.final{
+    display: flex;
+    gap: 35px; 
+}
+
+.services {
+    padding: 50px 20px;
+    max-width: 676px;
+    margin-left: 50px;
+}
+
+.services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.service-card {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    border-radius: 15px;
+    border: .5px solid #959292;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px #01024d4c;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);;
+}
+
+.service-card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.service-info {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.service-info h3 {
+    font-size: 24px;
+    margin: 0;
+    color: #fff;
+}
+
+.service-info p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.46);
+}
+
+.arrow {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    font-size: 24px;
+    color: #fff;
+    transition: transform 0.3s;
+}
+
+.service-card:hover .arrow {
+    transform: translateX(10px);
+}
+
+.carousel-container {
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    margin-top: 170px;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.2s ease-in-out;
+}
+
+.carousel-item {
+    min-width: 100%;
+    flex-shrink: 0;
+}
+
+.carousel img {
+    width: 526px;
+    height: 300px;
+    display: block;
+    border-radius: 16px;
+    box-shadow: #FFF;
+}
+
+.custom-range {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 680px;
+    height: 3;
+    background: #ccc;
+    cursor: auto;
+    margin-top: 10px;
+}
+
+.custom-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 3px;
+    height: 28px;
+    background: #fff;
+    cursor: auto;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+}
+
+.custom-range::-webkit-slider-runnable-track {
+    height: 3px;
+    background: #ffffff;
+    border-radius: 50px;
+}
+
+.h2{
+    font-size: 36px;
+    margin-left: 700px;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.social-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 50px;
+}
+
+.social-section p {
+    font-size: 25px;
+    margin: 0;
+}
+
+.social-icons img {
+    width: 36px;
+    height: 36px;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        border-radius: 5px;
+    }
+
+    .custom-range {
+        margin: 10px 0;
+    }
+
+    .timeline-text {
+        font-size: 16px; /* Reduz o tamanho do texto */
+        top: -20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline-text {
+        font-size: 14px; /* Tamanho menor para dispositivos muito pequenos */
+        top: -15px;
+    }
+
+    .carousel img {
+        border-radius: 5px; /* Ajusta os cantos das imagens */
+    }
+}
+
