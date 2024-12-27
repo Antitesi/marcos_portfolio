@@ -12,11 +12,10 @@
             <div class="logo"><img src="imagens/mark.png" alt=""></div> <div class="line2"><img src="imagens/Line 2.png" alt=""></div> <div class="defi"><img src="imagens/topo_design.png" alt=""></div>
         </div>
         <nav class="nav">
-            <strong>
                 <a href="index.html">Home</a>
+                <a href="projetcs.html">Projetcs</a>
                 <a href="about.html">About</a>
                 <a href="contact.html">Contact</a>
-            </strong>
         </nav>
     </header>
 
@@ -86,14 +85,54 @@
             Então, que tal começarmos agora? Compartilhe sua ideia, seus objetivos, e vamos transformar isso em uma realidade visualmente atraente e funcional. Quanto mais cedo iniciarmos, mais rápido você verá o impacto positivo que o design certo pode trazer</p>
         </section>
     </div>
-    
+
+    <div class="form-container">
+        <h2>Entre em contato</h2>
+        <form action="https://formsubmit.co/adderatv@gmail.com" method="POST">
+            <div class="form-row" >
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="service">Tipo de Serviço:</label>
+                <select id="service" name="service" required>
+                    <option value="">Selecione uma opção</option>
+                    <option value="website">Website</option>
+                    <option value="app">App Mobile</option>
+                </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea rows="4"></textarea>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </form>
+    </div>
+     
     <footer class="social-section">
         <p><strong>Follow me:</strong></p>
         <div class="social-icons">
-            <a href="#"><img src="imagens/Linkedin.png" alt="Logo Linkedin"></a>
-            <a href="#"><img src="imagens/Instagram.png" alt="Logo Instagram"></a>
+            <a href="https://www.linkedin.com/in/marcos-lima-387296210/"><img src="imagens/Linkedin.png" alt="Logo Linkedin"></a>
+            <a href="https://www.instagram.com/markdesign.uiux/"><img src="imagens/Instagram.png" alt="Logo Instagram"></a>
             <a href="mailto:marcos@exemplo.com"><img src="imagens/mail.png" alt="Logo email"></a>
         </div>
+        <a href="#top"><img id="skip_botton" src="imagens/skip.png" alt=""></a>
     </footer>
 </body>
 </html>

@@ -45,7 +45,7 @@ body {
 }
 
 .nav a {
-    color: #fff;
+    color: rgba(255, 255, 255, 0.46);
     margin: 0 10px;
     text-decoration: none;
 }
@@ -60,8 +60,8 @@ body {
     width: 500px;
     height: 745px;
     margin-left: 100px;
-    border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    box-shadow: 0px 4px 28.1px 0px rgba(255, 255, 255, 0.25);
 }
 
 .profile-content {
@@ -81,11 +81,31 @@ body {
     margin-bottom: 10x;
 }
 
+.profile-content .logo{
+    display: flex;
+    gap: 120px;
+    margin-top: 50px;
+
+}
+
+#logo_figma{
+    width: 80px;
+    height: 119.976px;
+    margin-left: 130px;
+    flex-shrink: 0;
+}
+
+#logo_miro{
+    width: 150px;
+    height: 158.028px;
+    flex-shrink: 0;
+}
+
 .carousel-container {
     width: 100%;
     max-width: 800px;
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: 160px;
     margin-left: 500px;
 }
 
@@ -134,10 +154,10 @@ body {
 }
 
 .social-section {
+    margin-top: 80px;
     display: flex;
     align-items: center;
-    margin-top: 150px;
-    gap: 10px;
+    gap: 25px;
     padding: 50px;
 }
 
@@ -149,4 +169,45 @@ body {
 .social-icons img {
     width: 36px;
     height: 36px;
+    padding: 10px;
 }
+
+#skip_botton {
+    margin-left: 990px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .carousel-container {
+        width: 100%;
+    }
+
+    .carousel-item img {
+        border-radius: 5px;
+    }
+
+    .custom-range {
+        margin: 10px 0;
+    }
+
+    .timeline-text {
+        font-size: 16px; 
+        top: -20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .timeline-text {
+        font-size: 14px; 
+        top: -15px;
+    }
+
+    .carousel img {
+        border-radius: 5px; /
+    }
+}
+

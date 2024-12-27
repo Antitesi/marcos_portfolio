@@ -15,3 +15,6 @@ slider.addEventListener('input', () => {
     const offset = percent * -(100 * (totalItems - 1)); 
     carousel.style.transform = `translateX(${offset}%)`; 
 });
+
+
+        

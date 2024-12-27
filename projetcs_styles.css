@@ -1,0 +1,228 @@
+body {
+    width: 1600x;
+    height: 1200px;    
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-image: url(imagens/Background.jpg);
+   
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.superiorLeft{
+    display: flex;
+    margin-left: 50px;
+}
+
+.logo {
+    width: 33px;
+}
+
+.line2 {
+    width: 1px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.defi{
+    height: 200;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.nav{
+    margin-right: 50px;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.nav a {
+    color: rgba(255, 255, 255, 0.46);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.cabecario{
+    margin-top: 100px;
+    margin-left: 160px;
+}
+
+.cabecario h1{
+    color: #FFF;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.cabecario p{
+    color: rgba(255, 255, 255, 0.46);
+    text-align: justify;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 123.092%; 
+    letter-spacing: 0.75px;
+}
+
+.divisao{
+    align-items: center;
+    
+}
+
+.projetos {
+    justify-items: center;
+    padding: 50px 50px;
+    flex-direction: column;
+}
+
+.projetos-card {
+    width: 1189px;
+    height: px;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 15px;
+    border: .5px solid #959292;
+    box-shadow: 0 4px 6px #01024d4c;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.projetos-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);;
+}
+
+.projetos-card img {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.projetos-info {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+    gap: 5  px;
+}
+
+.projetos-info h3 {
+    color: #FFF;
+    text-align: center;
+    margin-left: -12,5%;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.projetos-info button{
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 15px;
+    border: .5px solid #959292;
+    background-color:transparent;
+}
+
+.pins{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 50px; 
+}
+
+.pins img{
+    width: 250px;
+    height: 142.586px;
+    flex-shrink: 0;
+}
+
+.card-2 {
+    width: 1189px;
+    height: 394px;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 15px;
+    border: .5px solid #959292;
+    box-shadow: 0 4px 6px #01024d4c;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(255, 255, 255, 0.2);;
+}
+
+.card-2 img {
+    width: 150px;
+    height: 325.714px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.info-2 {
+    flex: .55;
+    margin-right: 10px;
+    text-align: center;
+    gap: 50px;
+}
+
+.info-2 h3 {
+    color: #FFF;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: -18%;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.info-2 button{
+    text-decoration: none;
+    color: #FFF;
+    border-radius: 15px;
+    border: .5px solid #959292;
+    background-color:transparent;
+}
+
+.pins-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -320px;
+    right: 50px; 
+    gap: 70px;
+}
+
+.social-section {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 50px;
+}
+
+.social-section p {
+    font-size: 25px;
+    margin: 0;
+}
+
+.social-icons img {
+    width: 36px;
+    height: 36px;
+    padding: 10px;
+}
+
+#skip_botton {
+    margin-left: 990px;
+}
+
